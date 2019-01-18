@@ -29,5 +29,5 @@ function prependKitten(name) {
 
 function removeLastKitten() {
   var front = kittens.splice(0,kittens.length-1)
-  front.concat(kittens)
+  return front.concat(kittens)
 }
